@@ -15,6 +15,13 @@ body {
     margin: 0;
     /* border: 3px solid red; */
     background-color: #212121;
-
+    color: white;
+}
+.overlay {
+    border: 2px solid red;
+    /* height: 100vh; */
+}
+img {
+    image-resolution: 100px;
 }
 
