@@ -66,6 +66,7 @@ body {
     justify-content: flex-end;
 }
 .footer-wrapper {
+    font-size: 2em;
     align-self: flex-end;
     padding: 0.5em 1em;
 }
