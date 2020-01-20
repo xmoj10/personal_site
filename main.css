@@ -11,7 +11,6 @@ font-family: 'Source Sans Pro', sans-serif;*/
     box-sizing: border-box;
 }
 body {
-    
     margin: 0;
     background-color: rgb(100,100,200, 0.5);
     font-family: 'Source Sans Pro', sans-serif;
@@ -20,6 +19,7 @@ body {
 /* for normal sized screens */
 .grid {
     display: grid;
+    height: 90vh;
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "main main bio"
