@@ -19,7 +19,7 @@ body {
 /* for normal sized screens */
 .grid {
     display: grid;
-    height: 90vh;
+    height: 95vh;
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "main main bio"
@@ -31,7 +31,7 @@ body {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 3fr 1fr 1fr 1fr;
+        grid-template-rows: 10fr 1fr 1fr 1fr;
         grid-template-areas: "main"
                              "bio"
                              "work"
