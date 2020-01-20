@@ -57,6 +57,7 @@ body {
 .image {
     object-fit: cover;
     max-width: 100%;
+    z-index: -1;
 }
 .footer {
     color: rgb(7, 161, 84);
