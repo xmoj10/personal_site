@@ -1,0 +1,50 @@
+* {
+    background-color: lightblue;
+    margin: 0;
+
+}
+
+html, body {
+    position: relative;
+
+}
+// END OF RESET
+
+nav {
+    position: top;
+    top: 0;
+    background-color: lightcoral;
+    display: flex;
+}
+
+.nav-item:nth-child(1) {
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+}
+.nav-item:nth-child(2) {
+    flex: 3;
+    background-color: lightgray;
+}
+.nav-item:nth-child(3) {
+    flex: 1;
+    background-color: rgb(239, 255, 182);
+}
+@media screen and (max-width: 500px) {
+    .hamburger-container {
+        background-color: #ec9e9e;
+        margin: auto;
+        width: 30%;
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+    }
+    .bar:nth-child(odd) {
+        background-color: lawngreen;
+    }
+
+    .bar {
+        border-bottom: 0.2em solid black;
+        width: 100%;
+        margin-top: 0.4em;
+    }
+}
